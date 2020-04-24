@@ -1,0 +1,169 @@
+.malzeme-ekle {
+    border: 0;
+    padding: 15px;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.malzeme-cikar {
+    border: 0;
+    padding: 15px;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.malzeme-cikar.disabled {
+    background: #c3bfff;
+    pointer-events: none;
+}
+
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgba(0, 134, 167, 0.78);
+  }
+  #root{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .card{
+    margin: 40px;
+    box-shadow: 7px 13px 49px -5px rgba(0, 134, 167, 0.78);
+    border-radius: 30px;
+    padding: 10px 40px;
+  }
+  .wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .left{
+    margin-right: 50px;
+  }
+  
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  h2{
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .price__items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .price__descr{
+    width: 300px;
+    text-align: left;
+  }
+  .price-collapse .price__item{
+    margin-bottom: 5px;
+  }
+  .collapse{
+    margin-bottom: 20px;
+    margin-left: 32px;
+    cursor: pointer;
+  }
+  .price__add{
+    font-weight: 600;
+    color: #292929;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 450px;
+  }
+  .price{
+    font-size: 17px;
+    font-weight: 700;
+    width: 70px;
+  }
+  .day-price{
+    color: #3d2f71;
+  }
+  .icon{
+    transition: all .4s linear;
+    font-size: 20px;
+    width: 22px;
+  }
+  
+  .icon-add{
+    color: #96d2ff;
+  }
+  .icon-add:hover{
+    color: #319cec;
+  }
+  .icon-delete{
+    color: #92da8a;
+  }
+  .icon-delete:hover{
+    color: #f37490;
+  }
+  .icon-delete:hover::before {
+    content: "\f057";
+   }
+  .collapse__button{
+    display: flex;
+  }
+  .collapse__switch{
+    width: 60px;
+  }
+  .switch__icon{
+    color: #808080;
+  }
+  .show {
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: 420px;
+  }
+  .price__summe{
+    display: flex;
+    align-items: center;
+  }
+  .summe-span{
+    transition: all .4s linear;
+  }
+  h3{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .price__summe{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .summe-span{
+    font-weight: 700;
+    font-size: 32px;
+  }
+  @media screen and (max-width: 1100px) {
+    .wrap {
+      display: block; ;
+    }
+  }
+  
+  .fa-instagram{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    font-size: 38px;
+  }
+  
+  .fa-instagram:hover{
+    font-size: 42px;
+    color: #dca118;
+    transition: all .1s linear;
+    cursor: pointer;
+  }

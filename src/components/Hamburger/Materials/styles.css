@@ -1,0 +1,9 @@
+.materials {
+  height: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+}
